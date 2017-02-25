@@ -1,6 +1,6 @@
 <?php
-$emailTo = 'knsimmons92@gmail.com';
-$siteTitle = 'YourSiteTitle';
+$emailTo = 'kristasimmons.design@gmail.com';
+$siteTitle = 'Kristas Portfolio';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -53,7 +53,7 @@ if(isset($_POST['submitted'])) {
 		$respondBody = "Your message to $siteTitle has been delivered! \n\nI will answer back as soon as possible.";
 		$respondHeaders = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
-		mail($email, $respondSubject, $respondBody, $respondHeaders);
+		// mail($email, $respondSubject, $respondBody, $respondHeaders);
 
         // set our boolean completion value to TRUE
 		$emailSent = true;
