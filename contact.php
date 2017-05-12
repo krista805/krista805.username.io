@@ -1,5 +1,5 @@
 <?php
-$emailTo = 'kristasimmons.design@gmail.com';
+$emailTo = 'knsimmons92@gmail.com';
 $siteTitle = 'Krista Portfolio';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
@@ -46,7 +46,7 @@ if(isset($_POST['submitted'])) {
 		$body = "Name: $name \n\nEmail: $email \n\nMessage: $comments";
 		$headers = 'From: ' .' <'.$email.'>' . "\r\n" . 'Reply-To: ' . $email;
 
-		mail($emailTo, $subject, $body, $headers);
+		// mail($emailTo, $subject, $body, $headers);
 
         //Autorespond
 		$respondSubject = 'Thank you for contacting '.$siteTitle;
