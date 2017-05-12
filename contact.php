@@ -1,5 +1,5 @@
 <?php
-$emailTo = 'knsimmons92@gmail.com';
+$emailTo = 'kristasimmons.design@gmail.com';
 $siteTitle = 'Krista Portfolio';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
